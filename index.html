@@ -4,11 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Blog</title>
-    <link rel="stylesheet" href="styles.css"> <!-- Link to your CSS file -->
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header>
-        <h1>Welcome to My Blog</h1>
+
+<header>
+    <div class="container">
+        <h1>My Blog</h1>
         <nav>
             <ul>
                 <li><a href="#home">Home</a></li>
@@ -16,33 +18,45 @@
                 <li><a href="#contact">Contact</a></li>
             </ul>
         </nav>
-    </header>
+    </div>
+</header>
 
-    <main>
+<main>
+    <div class="container">
         <article>
-            <h2>Blog Post Title 1</h2>
-            <p><em>Published on January 1, 2023</em></p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacinia odio vitae vestibulum.</p>
-            <a href="#readmore">Read more...</a>
+            <h2>Blog Post Title</h2>
+            <p class="post-meta">Posted on January 1, 2023 by Author</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam vel dui auctor, interdum metus sit amet, dapibus ipsum.</p>
+            <a href="#readmore" class="read-more">Read More</a>
         </article>
 
         <article>
-            <h2>Blog Post Title 2</h2>
-            <p><em>Published on January 2, 2023</em></p>
-            <p>Curabitur tristique tortor vel magna varius, at tempor nisi viverra. Nullam condimentum.</p>
-            <a href="#readmore">Read more...</a>
+            <h2>Another Blog Post</h2>
+            <p class="post-meta">Posted on January 2, 2023 by Author</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vel sapien a dolor laoreet consequat.</p>
+            <a href="#readmore" class="read-more">Read More</a>
         </article>
+    </div>
 
-        <article>
-            <h2>Blog Post Title 3</h2>
-            <p><em>Published on January 3, 2023</em></p>
-            <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
-            <a href="#readmore">Read more...</a>
-        </article>
-    </main>
+    <aside>
+        <div class="container">
+            <h3>About Me</h3>
+            <p>Short description about the blog author.</p>
+            <h3>Categories</h3>
+            <ul>
+                <li><a href="#">Category 1</a></li>
+                <li><a href="#">Category 2</a></li>
+                <li><a href="#">Category 3</a></li>
+            </ul>
+        </div>
+    </aside>
+</main>
 
-    <footer>
+<footer>
+    <div class="container">
         <p>&copy; 2023 My Blog. All rights reserved.</p>
-    </footer>
+    </div>
+</footer>
+
 </body>
 </html>
